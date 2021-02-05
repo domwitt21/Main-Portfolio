@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="rating" content="General">
+        <meta name="expires" content="never">
+        <meta name="language" content="English, EN">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="Contact page for Dominic Witts Portfolio.">
+        <meta name="keywords"
+            content="Web Development,CSS,JavaScript, HTML5, session storage, html5 local storage, web design, design, website, custom website, microsoft, office 365, dominic, witt, dominic witt, Dominic Witt, sony, ps5, one x, xbox one x, xbox series x, xbox">
+        <meta name="author" content="Dominic Witt">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Dominic Witt - Contact Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="icon" href="images/personalImg.png">
+        <script src="js/contact.js"></script>
+    </head>
+    <body id="mainBody">
+
+        <div class="bgImage" id="bgClassImage">
+            <img src="images/wallpapertip_material-wallpaper-hd_917055.png" alt="Wallpaper" id="bgImageOverall" class="bgImageOverall">
+        </div>
+
+        <header>
+            <div class="headContainer">
+                <div class="socialContainer">
+                    <a href="https://www.facebook.com/dominic.witt.92/" target="_blank"><img src="images/facebook.svg"
+                            alt="Facebook" id="facebook" class="facebook"></a>
+                    <a href="https://instagram.com/domwitt23" target="_blank"><img src="images/instagram.svg" alt="Instagram"
+                            id="instagram" class="instagram"></a>
+                    <a href="https://twitter.com/DominicWitt6" target="_blank"><img src="images/twitter.svg" alt="Twitter"
+                            id="twitter" class="twitter"></a>
+                    <a href="https://www.linkedin.com/in/domwitt21/" target="_blank"><img src="images/linkedin.svg" id="linkedin"
+                            alt="LinkedIn" class="linkedin"></a>
+                    <a href="https://github.com/domwitt21" target="_blank"><img src="images/github.svg" alt="Github" id="github"
+                            class="github"></a>
+                </div>
+                <div class="navBar">
+                    <a href="index.html">
+                        <div id="home" class="bar1">Home</div>
+                    </a>
+                    <a href="contact.html">
+                        <div id="contact" class="bar2">Contact</div>
+                    </a>
+                    <a href="portfolio.html">
+                        <div id="port" class="bar3">Portfolio</div>
+                    </a>
+                </div>
+                <label id="labelContainer" class="label">
+                    <div id="themeLabel" class="themeChangeLabel">
+                        <h6 id="d">D</h6>
+                        <h6 id="a">a</h6>
+                        <h6 id="r">r</h6>
+                        <h6 id="k">k</h6>
+                        <h6 id="m">m</h6>
+                        <h6 id="o">o</h6>
+                        <h6 id="dd">d</h6>
+                        <h6 id="e">e</h6>
+                    </div>
+                    <div class="toggle" id="toggleBtn">
+                        <input id="inputBtn" onclick="rainbowBtn()" class="toggle-state" type="checkbox" name="check"
+                            value="check" />
+                        <div id="indiCat" class="indicator"></div>
+                    </div>
+                </label>
+            </div>
+        </header>
+        <div class="mobileMainContainer" id="mobileMainContainer" onclick="mobileFunction()">
+            <div class="mobileNavContainer" id="mobileNavContainer">
+                <div class="br-1-mob" id="br-1-mob"></div>
+                <div class="br-2-mob" id="br-2-mob"></div>
+                <div class="br-3-mob" id="br-3-mob"></div>
+            </div>
+        </div>
+        <div class="nav-mob-content" id="nav-mob-content">
+            <div class="nav-mob-links" id="nav-mob-links">
+                <img src="images/personalImg.png" alt="Logo" class="mobileLogo" id="mobileLogo">
+                <div class="linksMobile">
+                    <a href="index.html">Home</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="infoContainer" id="infoContainer">
+            <div class="contentsOne" id="contentsOne">
+                <img src="images/personalImg.png" alt="Logo" class="logo" id="logo">
+                <img src="images/email-24px.svg" alt="email-24px" class="emailLogo" id="emailLogo">
+                <img src="images/email-24px.svg" alt="email-24px" class="emailLogoTwo" id="emailLogoTwo">
+                <img src="images/email-24px.svg" alt="email-24px" class="emailLogoThree" id="emailLogoThree">
+                <img src="images/call-24px.svg" alt="Phone" class="phoneLogo" id="phoneLogo">
+                <img src="images/discord.png" alt="Discord" class="discordLogo" id="discordLogo">
+                <div class="contactInfoContainer" id="contactInfoContainer">
+                    <h1>Contact Info</h1>
+                    <ul id="listOne" class="listOne">
+                        <a href="mailto: dominic@bluebillagency.com" class="linkOne link">dominic@bluebillagency.com</a><br>
+                        <a href="mailto: info@bluebillagency.com" class="linkTwo link">info@bluebillagency.com</a><br>
+                        <a href="mailto: domwitt21@gmail.com" class="linkThree link">domwitt21@gmail.com</a><br>
+                    </ul>
+                    <ul class="listTwo" id="listTwo">
+                        <a href="tel: +17065780237" class="linkFour link">+1 (706) 578 0237</a><br>
+                        <a href="https://discord.com/mrred" class="linkFive link">Chat on &copy;Discord</a><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="imgAnimationContainer">
+            <img src="images/brickbuilding1.png" alt="Building 1" class="buildingOne" id="buildingOne">
+            <img src="images/bigbuilding.png" alt="Building 1" class="buildingTwo" id="buildingTwo">
+            <img src="images/brickbuilding2.png" alt="Building 1" class="buildingThree" id="buildingThree">
+            <img src="images/brickbuilding3.png" alt="Building 1" class="buildingFour" id="buildingFour">
+            <img src="images/stonebuilding.png" alt="Building 1" class="buildingFive" id="buildingFive">
+            <img src="images/stonebuilding2.png" alt="Building 1" class="buildingSix" id="buildingSix">
+            <img src="images/stonebuilding3.png" alt="Building 1" class="buildingSeven" id="buildingSeven">
+            <img src="images/crane.png" alt="Building 1" class="buildingEight" id="buildingEight">
+            <img src="images/crane2.png" alt="Building 1" class="buildingNine" id="buildingNine">
+        </div>
+
+
+
+
+        <footer class="footerMain" id="footerMain">
+            <div class="footerContainer">
+                <div class="animateBtnContainer">
+                    <label for="checkbox" class="checkBoxLabel"></label>
+                    <label class="switch">
+                        <input type="checkbox" onclick="animationBtn();" name="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <img src="images/personalImg.png" alt="Logo" class="footerLogo">
+                <span class="copyrightTxt">&copy; 2021 Dominic Witt Web Development &amp; Design</span>
+                <div class="footerContents">
+                    <div class="quickLinks" id="quicks">
+                        <h6>Quick Links</h6>
+                        <ul>
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="contact.html">
+                                <li>Contact</li>
+                            </a>
+                            <a href="portfolio.html">
+                                <li>Portfolio</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="quickLinks">
+                        <h6>Social Links</h6>
+                        <ul>
+                            <a href="https://www.facebook.com/dominic.witt.92/" target="_blank">
+                                <li>Facebook</li>
+                            </a>
+                            <a href="https://instagram.com/domwitt23">
+                                <li>Instagram</li>
+                            </a>
+                            <a href="https://twitter.com/DominicWitt6">
+                                <li>Twitter</li>
+                            </a>
+                            <a href="https://www.linkedin.com/in/domwitt21/">
+                                <li>LinkedIn</li>
+                            </a>
+                            <a href="https://github.com/domwitt21">
+                                <li>Github</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="quickLinks" id="busines">
+                        <h6>Business Links</h6>
+                        <ul>
+                            <a href="https://www.upwork.com/fl/artcartel">
+                                <li>UpWork</li>
+                            </a>
+                            <a href="https://www.fiverr.com/dwitt1996?up_rollout=true">
+                                <li>Fiverr</li>
+                            </a>
+                            <a href="https://indeed.com/">
+                                <li>Indeed</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="/__/firebase/8.2.4/firebase-app.js"></script>
+        <script src="/__/firebase/8.2.4/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+        <!-- Initialize Firebase -->
+        <script src="/__/firebase/init.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+            </script>
+    </body>
+</html>
